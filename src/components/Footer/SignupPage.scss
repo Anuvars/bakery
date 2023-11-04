@@ -1,0 +1,97 @@
+
+.sign {
+  margin: auto;
+padding-top: 100px;
+text-align: center;
+font-family: Arial, sans-serif;
+}
+
+.login-container {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+background-color: #f5f5f5;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.signup-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.login-form h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.phone-input {
+display: flex;
+align-items: center;
+}
+
+.phone-input input[type="text"] {
+width: 15%;
+padding: 10px;
+border: 1px solid #ccc;
+border-right: none;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+font-size: 16px;
+background-color: #f5f5f5;
+cursor: not-allowed;
+}
+
+.phone-input input[type="tel"] {
+width: 85%;
+padding: 10px;
+border: 1px solid #ccc;
+border-left: none;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+font-size: 16px;
+}
+
+button[type="submit"] {
+background-color: #007FFF;
+color: #fff;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+font-size: 18px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #0056b3;
+}
+
+a {
+color: #007FFF;
+text-decoration: none;
+font-size: 15px;
+}
+
+a:hover {
+text-decoration: underline;
+}

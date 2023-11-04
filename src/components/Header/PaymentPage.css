@@ -1,0 +1,81 @@
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .payment-method {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .payment-method.selected {
+    border-color: #007bff; /* Change this color to your desired selection color */
+  }
+  
+  .payment-icon {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .atm-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .atm-details label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .amount-payment {
+    margin-top: 20px;
+  }
+  
+  .amount-payment label {
+    font-weight: bold;
+  }
+  
+  .amount-payment button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .payment-result {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .payment-image {
+    width: 250px;
+    height: 600px;
+    margin-top: 20px;
+  }
+  
